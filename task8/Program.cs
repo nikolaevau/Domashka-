@@ -5,7 +5,7 @@ int number = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("Чётные числа из диапазона от 1 до " + number + " : ");
 
-for (int x = 1; x < number; x++)       
+for (int x = 1; x <= number; x++)       
 if (x%2==0)    
 
 Console.WriteLine(x);
